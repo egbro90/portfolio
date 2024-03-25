@@ -1,0 +1,229 @@
+@font-face {
+    font-family: 'Hanwha L';
+    src: url('../fonts/Hanwha_L.eot');
+    src: url('../fonts/Hanwha_L.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Hanwha_L.woff2') format('woff2'),
+        url('../fonts/Hanwha_L.woff') format('woff'),
+        url('../fonts/Hanwha_L.ttf') format('truetype'),
+        url('../fonts/Hanwha_L.svg#Hanwha_L') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hanwha R';
+    src: url('../fonts/Hanwha_R.eot');
+    src: url('../fonts/Hanwha_R.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Hanwha_R.woff2') format('woff2'),
+        url('../fonts/Hanwha_R.woff') format('woff'),
+        url('../fonts/Hanwha_R.ttf') format('truetype'),
+        url('../fonts/Hanwha_R.svg#Hanwha_R') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hanwha B';
+    src: url('../fonts/Hanwha_B.eot');
+    src: url('../fonts/Hanwha_B.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Hanwha_B.woff2') format('woff2'),
+        url('../fonts/Hanwha_B.woff') format('woff'),
+        url('../fonts/Hanwha_B.ttf') format('truetype'),
+        url('../fonts/Hanwha_B.svg#Hanwha_B') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Transducer';
+    src: url('../fonts/Transducer-Black.eot');
+    src: url('../fonts/Transducer-Black.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Transducer-Black.woff2') format('woff2'),
+        url('../fonts/Transducer-Black.woff') format('woff'),
+        url('../fonts/Transducer-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Transducer';
+    src: url('../fonts/Transducer-Bold.eot');
+    src: url('../fonts/Transducer-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Transducer-Bold.woff2') format('woff2'),
+        url('../fonts/Transducer-Bold.woff') format('woff'),
+        url('../fonts/Transducer-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Transducer';
+    src: url('../fonts/Transducer-BlackCondensed.eot');
+    src: url('../fonts/Transducer-BlackCondensed.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Transducer-BlackCondensed.woff2') format('woff2'),
+        url('../fonts/Transducer-BlackCondensed.woff') format('woff'),
+        url('../fonts/Transducer-BlackCondensed.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Transducer';
+    src: url('../fonts/Transducer-BoldCondensed.eot');
+    src: url('../fonts/Transducer-BoldCondensed.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Transducer-BoldCondensed.woff2') format('woff2'),
+        url('../fonts/Transducer-BoldCondensed.woff') format('woff'),
+        url('../fonts/Transducer-BoldCondensed.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Transducer';
+    src: url('../fonts/Transducer-HairlineExtended.eot');
+    src: url('../fonts/Transducer-HairlineExtended.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Transducer-HairlineExtended.woff2') format('woff2'),
+        url('../fonts/Transducer-HairlineExtended.woff') format('woff'),
+        url('../fonts/Transducer-HairlineExtended.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Transducer';
+    src: url('../fonts/Transducer-BoldExtended.eot');
+    src: url('../fonts/Transducer-BoldExtended.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Transducer-BoldExtended.woff2') format('woff2'),
+        url('../fonts/Transducer-BoldExtended.woff') format('woff'),
+        url('../fonts/Transducer-BoldExtended.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Transducer';
+    src: url('../fonts/Transducer-MediumCondensed.eot');
+    src: url('../fonts/Transducer-MediumCondensed.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Transducer-MediumCondensed.woff2') format('woff2'),
+        url('../fonts/Transducer-MediumCondensed.woff') format('woff'),
+        url('../fonts/Transducer-MediumCondensed.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Transducer';
+    src: url('../fonts/Transducer-Condensed.eot');
+    src: url('../fonts/Transducer-Condensed.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Transducer-Condensed.woff2') format('woff2'),
+        url('../fonts/Transducer-Condensed.woff') format('woff'),
+        url('../fonts/Transducer-Condensed.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Transducer';
+    src: url('../fonts/Transducer-Medium.eot');
+    src: url('../fonts/Transducer-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Transducer-Medium.woff2') format('woff2'),
+        url('../fonts/Transducer-Medium.woff') format('woff'),
+        url('../fonts/Transducer-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Transducer';
+    src: url('../fonts/Transducer-HairlineCondensed.eot');
+    src: url('../fonts/Transducer-HairlineCondensed.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Transducer-HairlineCondensed.woff2') format('woff2'),
+        url('../fonts/Transducer-HairlineCondensed.woff') format('woff'),
+        url('../fonts/Transducer-HairlineCondensed.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Transducer';
+    src: url('../fonts/Transducer-Regular.eot');
+    src: url('../fonts/Transducer-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Transducer-Regular.woff2') format('woff2'),
+        url('../fonts/Transducer-Regular.woff') format('woff'),
+        url('../fonts/Transducer-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Transducer';
+    src: url('../fonts/Transducer-Extended.eot');
+    src: url('../fonts/Transducer-Extended.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Transducer-Extended.woff2') format('woff2'),
+        url('../fonts/Transducer-Extended.woff') format('woff'),
+        url('../fonts/Transducer-Extended.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Transducer';
+    src: url('../fonts/Transducer-Hairline.eot');
+    src: url('../fonts/Transducer-Hairline.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Transducer-Hairline.woff2') format('woff2'),
+        url('../fonts/Transducer-Hairline.woff') format('woff'),
+        url('../fonts/Transducer-Hairline.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Transducer';
+    src: url('../fonts/Transducer-MediumExtended.eot');
+    src: url('../fonts/Transducer-MediumExtended.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Transducer-MediumExtended.woff2') format('woff2'),
+        url('../fonts/Transducer-MediumExtended.woff') format('woff'),
+        url('../fonts/Transducer-MediumExtended.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Transducer';
+    src: url('../fonts/Transducer-BlackExtended.eot');
+    src: url('../fonts/Transducer-BlackExtended.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Transducer-BlackExtended.woff2') format('woff2'),
+        url('../fonts/Transducer-BlackExtended.woff') format('woff'),
+        url('../fonts/Transducer-BlackExtended.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+
+
+
+
+* {
+    font-family: 'Transducer', 'HanWha R', sans-serif;
+    font-size: 18px;
+}

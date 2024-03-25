@@ -1,0 +1,118 @@
+@import url(https://db.onlinewebfonts.com/c/9b2873c414cc836c8104c5cfca409287?family=Transducer+Test+Black+Condensed);
+
+// 색상 변수
+$black: #000;
+$white: #fff;
+$gray: gray;
+
+* {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+#wrapper {
+    min-height: 200vh;
+    &.dark {
+        background-color: $black;
+        color: $white;
+        * {
+            border-color: $white;
+            &::after {
+                border-color: $white;
+            }
+            stroke: $white;
+        }
+        a {
+            color: $white;
+        }
+        .menu .theme {
+            button {
+                display: block;
+                font-size: 0;
+            }
+            svg {
+                color: #e1e1e1;
+            }
+        }
+    }
+}
+
+header {
+    .inner {
+        display: flex;
+        border: none;
+        border-bottom: 1px solid #000;
+        justify-content: space-between;
+        height: 66px;
+        .logo {
+            width: 400px;
+            border-right: 1px solid #000;
+            display: flex;
+            align-items: center;
+            padding: 0 40px;
+            box-sizing: border-box;
+            justify-content: left;
+        }
+        .menu {
+            display: flex;
+            width: calc(100% - 400px);
+            padding:0 40px;
+            box-sizing: border-box;
+            justify-content: space-between;
+            align-items: center;
+            button {
+                cursor: pointer;
+                border: 0;
+                background-color: transparent;
+                svg {
+                    zoom: 1.6;
+                }
+            }
+            a {
+                color: $black;
+                font-size: 16px;
+                line-height: 66px;
+            }
+        }
+    }
+}
+
+
+footer {
+    .scroll-progressbar {
+        position: fixed;
+        width: 100px;
+        height: 100px;
+        right: 40px;
+        bottom: 40px;
+        border: 1px solid $black;
+        border-radius: 50%;
+        &::after {
+            display: block;
+            content: '';
+            padding: 8px;
+            width: calc(100% - 8px);
+            height: calc(100% - 8px);
+            border: 1px solid $black;
+            border-radius: 50%;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            box-sizing: border-box;
+        }
+        svg {
+            transform: rotate(-90deg);
+            circle {
+                stroke: $black;
+                stroke-width: 4px;
+                fill: transparent;
+                stroke-linecap: round;
+                stroke-dashoffset: 314;
+                transition: all 0.1s linear;
+            }
+        }
+    }
+}
