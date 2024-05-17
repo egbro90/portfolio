@@ -1,5 +1,6 @@
 import React from "react";
 import { useRef, useEffect } from "react";
+import { IoIosArrowRoundDown } from "react-icons/io";
 
 
 const Footer = ({ Wrapper }) => {
@@ -23,17 +24,26 @@ const Footer = ({ Wrapper }) => {
         });
 
         // 클릭시 상단으로 이동
+        moveTopButton.current.addEventListener('click', function(){
+            window.scrollTo({
+                top:0,
+                behavior:'smooth'
+            })
+        });
     }, [])
     
     return (
         <>
             <footer>
-                <div className="scroll-progressbar">
+                <div className="scroll-progressbar" ref={moveTopButton}>
                     <svg viewBox="0 0 100 100" width="100" height="100">
                         <circle cx="50" cy="50" r="48" strokeDasharray="306" style={{strokeDashoffset: '300'}} ref={svgCircle}></circle>
                     </svg>
-                    <div className="move-top-button">상단으로 이동</div>
+                    <div className="move-top-button">
+                        <IoIosArrowRoundDown size={50} />
+                    </div>
                 </div>
+                
             </footer>
         </>
     )
