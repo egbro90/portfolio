@@ -1,9 +1,19 @@
-// 실행 터미널 명령어 : node server.js (파일 수정하면 재실행 해야되는 번거로움 - 대안 : nodemon)
-// nodemon 실행 명령어 : nodemon server.js
-// 설치한 라이브러리 불러 옴
+// node server.js 로 실행하면 파일 수정할 때마다 서버 재실행 해줘야함 -> nodemon server.js로 실행
 const express = require('express');
 const path = require('path');
 const app = express();
+
+// 몽고db 연결
+const { MongoClient } = require('mongodb');
+let db
+const url = 'mongodb+srv://poac90:qkrwngus90!@portfolio.gqouxvo.mongodb.net/?retryWrites=true&w=majority&appName=portfolio'
+new MongoClient(url).connect().then((client)=>{
+  console.log('DB연결성공')
+  db = client.db('forum')
+}).catch((err)=>{
+  console.log(err)
+})
+
 
 // 서버 띄움
 app.listen(8080, function () {
