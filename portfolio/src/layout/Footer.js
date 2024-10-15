@@ -30,18 +30,6 @@ const Footer = ({ Wrapper }) => {
                 behavior:'smooth'
             })
         });
-
-        // 깃헙페이지에서 새로고침하면 url 못읽는 현상 스크립트
-        (function (l) {
-            if (l.search[1] === '/') {
-              var decoded = l.search.slice(1).split('&').map(function (s) {
-                return s.replace(/~and~/g, '&')
-              }).join('?');
-              window.history.replaceState(null, null,
-                l.pathname.slice(0, -1) + decoded + l.hash
-              );
-            }
-          }(window.location))
     }, [])
     
     return (
