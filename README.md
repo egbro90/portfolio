@@ -1,4 +1,3 @@
-# egbrother's portfolio.
 # [http://egbro90.github.io](http://egbro90.github.io)
 
 생각날때마다 함 귀찮아서 언제 끝날지 모름
