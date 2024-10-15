@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.d6799043.css",
-    "main.js": "/static/js/main.a93e0a53.js",
+    "main.css": "/static/css/main.91592bbd.css",
+    "main.js": "/static/js/main.627fa393.js",
     "static/js/453.1407b060.chunk.js": "/static/js/453.1407b060.chunk.js",
     "static/media/Hanwha_B.svg": "/static/media/Hanwha_B.899d60d9b09035531088.svg",
     "static/media/Hanwha_R.svg": "/static/media/Hanwha_R.30b7f3f6e87b61b6dba5.svg",
@@ -79,12 +79,12 @@
     "static/media/Transducer-HairlineCondensed.woff2": "/static/media/Transducer-HairlineCondensed.4028322d1d7546e8a3f3.woff2",
     "static/media/Transducer-BlackCondensed.woff2": "/static/media/Transducer-BlackCondensed.29bdb04f82b07fcfb181.woff2",
     "index.html": "/index.html",
-    "main.d6799043.css.map": "/static/css/main.d6799043.css.map",
-    "main.a93e0a53.js.map": "/static/js/main.a93e0a53.js.map",
+    "main.91592bbd.css.map": "/static/css/main.91592bbd.css.map",
+    "main.627fa393.js.map": "/static/js/main.627fa393.js.map",
     "453.1407b060.chunk.js.map": "/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d6799043.css",
-    "static/js/main.a93e0a53.js"
+    "static/css/main.91592bbd.css",
+    "static/js/main.627fa393.js"
   ]
 }
