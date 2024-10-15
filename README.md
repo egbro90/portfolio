@@ -1,5 +1,4 @@
-# [http://egbro90.github.io](http://egbro90.github.io){:target="_blank"}
-<a href="http://egbro90.github.io" target="_blank">http://egbro90.github.io</a>
+# <a href="https://www.google.co.kr/" target="_blank"> 구글로 이동하기 </a>
 
 생각날때마다 함 귀찮아서 언제 끝날지 모름
 
