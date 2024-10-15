@@ -59,6 +59,9 @@ const Skill = () => {
                 </table>
                 <p className="info-text">* 역할 : PM (프로젝트관리자), PL(중간관리자), PG(프로그래머), SM(시스템 운영 및 유지보수), SI(시스템 구축)</p>
                 <p className="info-text">* 경력사항은 과거순부터 현재순으로 작성</p>
+                <p>
+                    <button>스킬 인벤토리.pdf 다운로드</button>
+                </p>
             </div>
         </>
     )
